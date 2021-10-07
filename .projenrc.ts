@@ -6,6 +6,7 @@ const project = new TypeScriptProject({
   projenrcTs: true,
   peerDeps: ["prettier", "projen"],
   devDeps: ["webpack"],
+  releaseToNpm: true,
   eslintOptions: {
     dirs: ["src", "test"],
     prettier: true,
