@@ -99,6 +99,10 @@
       "type": "build"
     },
     {
+      "name": "vite",
+      "type": "build"
+    },
+    {
       "name": "webpack",
       "type": "build"
     },

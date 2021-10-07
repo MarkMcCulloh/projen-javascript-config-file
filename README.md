@@ -2,6 +2,10 @@
 
 WIP and subject to change
 
+## Assumptions
+
+- 
+
 ## Usage
 
 
@@ -15,7 +19,7 @@ import { Configuration } from "webpack";
 const projectName = project.name;
 new JavascriptConfigComponent<Configuration>(
     project,
-    "webpack.config.js",
+    "webpack.config.mjs",
     (webpackEnv) => {
       console.log("test"); //!
       return {
@@ -36,7 +40,7 @@ new JavascriptConfigComponent<Configuration>(
   );
 ```
 
-**Resulting `webpack.config.js`**
+**Resulting `webpack.config.mjs`**
 
 ```javascript
 import { merge } from "webpack-merge";

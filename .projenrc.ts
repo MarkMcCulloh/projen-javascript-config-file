@@ -5,7 +5,7 @@ const project = new TypeScriptProject({
   name: "projen-javascript-configuration-file",
   projenrcTs: true,
   peerDeps: ["prettier", "projen"],
-  devDeps: ["webpack"],
+  devDeps: ["webpack", "vite"],
   releaseToNpm: true,
   eslintOptions: {
     dirs: ["src", "test"],
